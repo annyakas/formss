@@ -1,0 +1,120 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Inscrição em Cursos </title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <h1>Inscrição para Cursos de Tecnologia</h1>
+            <p>Preecha os dados abaixo para realizar a sua inscrição.</p>
+
+            <form>
+                    <fieldset>
+                        <legend> Dados pessoais</legend>
+
+                        <label>Nome completo:</label>
+                        <input type="text" placeholder="Digite seu nome" required>
+
+                        <label>E-mail:</label>
+                        <input type="email" placeholder="seuemail@email.com" required>
+
+                        <label>Senha de acesso:</label>
+                        <input type="password" required>
+
+                        <label>Telefone:</label>
+                        <input type="tel" placeholder="(00) 0000-0000">
+
+                        <label>Data de nascimento:</label>
+                        <input type="date">
+
+                        <label>Idade:</label>
+                        <input type="number" min="14" max="100">
+
+                        <label>Site ou portifólio:</label>
+                        <input type="url" placeholder="https://">
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informações do curso</legend>
+
+                        <label>Qual curso dejesa fazer?</label>
+
+                        <select name="curso"
+                        <option value=""> Selecione um curso</option>
+                        <option>HTML e CSS</option>
+                        <option>JavaScript</option>
+                        <option>Python</option>
+                        <option>Desenvolvimento Web</option>
+                    </select>
+
+                    <label>Modalidade:</label>
+
+                    <input type="radio" name="modalidade" value="online">
+                    Online
+
+                    <input type="radio" name="modalidade" value="presencial">
+                    Presencial
+                    <br>
+
+                    <label>Quais assuntos você tem interesse?</label>
+
+                    <input type="checkbox" name="interesse" value="programacao">
+                    Programação 
+
+                    <input type="checkbox" name="interesse" value="design">
+                    Design 
+
+                    <input type="checkbox" name="interesse" value="banco">
+                    Banco de Dados 
+
+                    <label>Data desejada para começar:</label>
+                    <input type="date">
+
+                    <label>Escolha uma cor para seu certificado:</label>
+                    <input type="color">
+
+                    </fieldset>
+                    <fieldset>
+                            <legend>Disponibilidade e preferências</legend>
+
+                            <label>Quantas horas por semana pode estudar?</label>
+                            <input type="range" min="1" max="24" value="10">
+
+                            <label> Mês de preferência de início: </label>
+                            <input type="month">
+
+                            <label>Semana de preferência de início</label>
+                            <input type="week">
+
+                            <label> Data e horário de preferência: </label>
+                            <input type="file">
+                            
+                            <label>Possui alguma experiência na área?</label>
+
+                            <select>
+                            <option>Selecione</option>
+                            <option>Sim</option>
+                            <option>Não</option>
+                            </select>
+
+                            <label>Conte um pouco cobre seus objetivos:</label>
+                            <textarea rows="5" placeholder="Escreva aqui..."></textarea>
+
+                            <label>Pesquise um curso de interesse:</label>
+                            <input type="search" placeholder="Pesquisar cursos">
+
+                    </fieldset>
+
+                    <input type="hidden" name="origem" value="inscricao">
+                    <br>
+                    <input type="checkbox" required>
+                    Confirmo que as informações estão corretas.
+                    <br>
+                    <input type="submit" value="Enviar inscrição">
+                    <input type="reset" value="Limpar formulário">
+                    <button type="button" onclick="alert('Obrigado por conhecer nossos cursos!')">
+                        Saiba mais
+                    </button>
+            </form>
+        </body>
+</html>

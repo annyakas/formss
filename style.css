@@ -1,0 +1,124 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+/* TÍTULO */
+
+h1 {
+    text-align: center;
+    color: #2F9E41;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+/* FORMULÁRIO */
+
+form {
+    background-color: white;
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 30px;
+    border-top: 6px solid #2F9E41;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+/* GRUPOS */
+
+fieldset {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+legend {
+    color: #2F9E41;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* TEXTOS */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* CAMPOS */
+
+input:not([type="radio"]):not([type="checkbox"]):not([type="range"]):not([type="color"]):not([type="submit"]):not([type="reset"]):not([type="hidden"]):not([type="button"]),
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid #2F9E41;
+}
+
+/* BOTÃO ENVIAR */
+
+input[type="submit"] {
+    background-color: #2F9E41;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BOTÃO LIMPAR */
+
+input[type="reset"] {
+    background-color: #CD191E;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BOTÃO COMUM */
+
+button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+
+input[type="submit"]:hover {
+    background-color: #247a32;
+}
+
+input[type="reset"]:hover {
+    background-color: #a91419;
+}
+
+button:hover {
+    background-color: #555555;
+}
